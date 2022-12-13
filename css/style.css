@@ -1,0 +1,76 @@
+html {
+
+}
+
+body {
+    margin: 0;
+}
+
+.up {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.up p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.hybride {
+    flex-grow: 1;
+}
+
+.up a {
+
+}
+
+.up a:hover {
+    
+}
+
+.up img {
+    width: 70px;
+    margin-right: 20px;
+}
+
+main {
+    border-top: 1px solid cyan;
+}
+
+.container {
+    
+}
+
+.groupeCard1 {
+    display: flex;
+    justify-content: center;
+}
+
+.groupeCard1 a {
+    
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.cardImg {
+    
+}
+
+.cardImg img {
+    width: 300px;
+    object-fit: cover;
+}
+
+.cardText {
+    text-align: center;
+}
+
+.cardText p {
+
+}
+
