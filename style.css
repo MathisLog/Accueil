@@ -1,0 +1,128 @@
+html {
+    font-family: 'Raleway', Courier, monospace;
+}
+
+:root {
+    --color1: #d0d0d0;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color1);
+    height: 800px;
+}
+
+.sem {
+    display: grid;
+    grid-row: 1fr 4fr 1fr;
+}
+
+.up {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.up p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.hybride {
+    flex-grow: 1;
+}
+
+.up a {
+
+}
+
+.up a:hover {
+    
+}
+
+.up img {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.up img:hover {
+    -webkit-transform:scale(1.20); /* Safari and Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:scale(1.20); /* Opera */
+     transform:scale(1.20);
+    transition: 0.8s;
+}
+
+main {
+    border-top: 2px solid rgb(51, 97, 156);
+}
+
+.container {
+    
+}
+
+.groupeCard1 {
+    display: flex;
+    justify-content: center;
+}
+
+.groupeCard1 a {
+    
+}
+
+.card {
+    width: auto;
+    height: 100%;
+    margin: 30px;
+    border: 1px solid gainsboro;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.card:hover {
+    -webkit-transform:scale(1.20); /* Safari and Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:scale(1.20); /* Opera */
+     transform:scale(1.20);
+    transition: all 0.5s;
+    background-color: #DEEBFF;
+}
+
+.cardImg {
+    margin: 30px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.cardImg img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.cardText {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.cardText a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.cardText a:hover {
+    color: blue;
+}
+
+footer {
+    
+}
+
+.footText {
+    text-align: center;
+}
+
